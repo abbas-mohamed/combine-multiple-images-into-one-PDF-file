@@ -1,6 +1,7 @@
 # combine-multiple-images-into-one-PDF-file
 using imagick with php  to combine multiple images into one PDF file 
-first of all 
+
+ first of all 
 
           <form method='post' enctype='multipart/form-data' action="compain.php">		
           <div class="form-group panel panel-primary"  > 
