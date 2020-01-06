@@ -82,6 +82,7 @@ javascript file
           }
 
 php file
+
           <?php
           ini_set("error_reporting", 1);
           if(isset($_POST['submit'])) // is we click send post
