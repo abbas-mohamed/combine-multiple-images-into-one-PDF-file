@@ -1,0 +1,160 @@
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(0.9); }
+@font-face {
+  font-family: myFirstFont;
+  src: url(HSDream.ttf);
+}
+
+* {
+  font-family: myFirstFont;
+}
+#wrapper{
+	padding:10px;
+	background: #00acc1;
+}
+    
+.ctd{
+	color:red;
+}
+
+@media print {
+table tr td {
+		font-size: 15px;
+	}
+#footer{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  } 
+  #btn_print{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+.img{
+	display:none;
+}
+#hd{
+	display:none;
+}
+ 
+
+}
+@media screen and (max-width: 600px) {
+	#imgtop {
+	  width:100px;
+	  float:left;
+	  margin-top:-60px;
+	  
+  }
+
+  h2
+  {
+	  font-size:15px;
+  }
+  h3
+  {
+	  font-size:15px;
+  }
+
+
+}
+@media print and (max-width: 600px) {
+  footer{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  } 
+  #btn_print{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+ }
+
+optgroup{
+	font-size:30px;
+	color:blue;
+}
+option
+{
+	font-size:30px;
+	color:blue;
+} 
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+ 
+  
+}
+
+
+.btn2 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.del
+{
+	
+  background-color: red;
+}
+
+.upload-btn-wrapper input[type=file] {
+ 
+  position: absolute;
+  left: 0;
+  top: 0;
+  top:0;	
+  buttom:0;
+  opacity: 0;
+}
+.imgcenter
+{
+visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.contain .rm_btn {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  opacity: 0.7;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  color: white;
+		  font-size: 16px;
+		  padding: 12px 24px;
+		  border: none;
+		  cursor: pointer;
+		  border-radius: 5px;
+		  text-align: center;
+		}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}	
